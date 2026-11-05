@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REAL ESTATE SISTERS ΙΚΕ | Αγοραπωλησίες, Ενοικιάσεις & Διαχείριση Ακινήτων στον Έβρο</title>
+<meta name="description" content="Η REAL ESTATE SISTERS ΙΚΕ αναλαμβάνει αγοραπωλησίες, ενοικιάσεις, διαχείριση και αξιοποίηση ακινήτων στον Έβρο. Ολοκληρωμένη εξυπηρέτηση, από την εκτίμηση μέχρι την υπογραφή.">
+<meta property="og:title" content="REAL ESTATE SISTERS ΙΚΕ – Εταιρεία Διαχείρισης Ακινήτων">
+<meta property="og:description" content="Αγοραπωλησίες, ενοικιάσεις, διαχείριση και αξιοποίηση ακινήτων στον Έβρο.">
+<link rel="canonical" href="https://realestatesissike.gr/">
+<meta property="og:url" content="https://realestatesissike.gr/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="el_GR">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "REAL ESTATE SISTERS ΙΚΕ",
+  "description": "Εταιρεία διαχείρισης ακινήτων: αγοραπωλησίες, ενοικιάσεις, διαχείριση και αξιοποίηση ακινήτων.",
+  "email": "realestatesistersike@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7ο χλμ Διδυμοτείχου - Αλεξανδρούπολης",
+    "postalCode": "68004",
+    "addressCountry": "GR"
+  }
+}
+</script>
+<style>
+:root{
+  --ink:#1f2a2e;
+  --muted:#5b6a70;
+  --teal:#0f4c5c;
+  --teal-dark:#0a3540;
+  --sand:#f6f1e9;
+  --sand-2:#ebe3d6;
+  --accent:#c8693f;
+  --accent-dark:#a9532f;
+  --white:#fff;
+  --radius:14px;
+  --shadow:0 10px 30px rgba(15,76,92,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:var(--ink);background:var(--white);line-height:1.65;font-size:17px;
+}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+.container{width:min(1140px,92%);margin-inline:auto}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;color:var(--teal-dark)}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem);margin-bottom:.6rem}
+h3{font-size:1.2rem;margin-bottom:.4rem}
+.eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:700;color:var(--accent);margin-bottom:.6rem}
+.lead{color:var(--muted);max-width:62ch}
+section{padding:84px 0}
+.alt{background:var(--sand)}
+.center{text-align:center}
+.center .lead{margin-inline:auto}
+
+/* Header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e6e9ea}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.logo-mark{width:42px;height:42px;border-radius:10px;background:var(--teal);color:#fff;display:grid;place-items:center;font-family:Georgia,serif;font-weight:700;font-size:1.05rem;letter-spacing:.02em}
+.logo-text{display:flex;flex-direction:column;line-height:1.1}
+.logo-text strong{font-family:Georgia,serif;color:var(--teal-dark);font-size:1.02rem;letter-spacing:.04em}
+.logo-text span{font-size:.68rem;letter-spacing:.2em;color:var(--accent);font-weight:700}
+nav ul{display:flex;gap:1.6rem;list-style:none;align-items:center}
+nav a{text-decoration:none;font-weight:600;font-size:.95rem;color:var(--ink)}
+nav a:hover{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:#fff!important;padding:.8rem 1.5rem;border-radius:999px;font-weight:700;text-decoration:none;border:0;cursor:pointer;font-size:1rem;transition:.2s}
+.btn:hover{background:var(--accent-dark);transform:translateY(-1px)}
+.btn.ghost{background:transparent;border:2px solid #fff;color:#fff!important}
+.btn.ghost:hover{background:#fff;color:var(--teal)!important}
+.burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{display:block;width:24px;height:2px;background:var(--teal-dark);margin:5px 0}
+
+/* Hero */
+.hero{
+  background:linear-gradient(135deg,rgba(10,53,64,.93),rgba(15,76,92,.82)),
+  repeating-linear-gradient(45deg,#0f4c5c 0 20px,#0d4554 20px 40px);
+  color:#fff;padding:110px 0 100px;
+}
+.hero h1{color:#fff;font-size:clamp(2.1rem,5vw,3.6rem);max-width:18ch;margin-bottom:1.1rem}
+.hero p{font-size:1.15rem;max-width:56ch;color:#dbe8eb;margin-bottom:2rem}
+.hero .eyebrow{color:#f0b697}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3.5rem;max-width:720px}
+.stat{border-left:3px solid var(--accent);padding-left:1rem}
+.stat strong{display:block;font-family:Georgia,serif;font-size:1.25rem}
+.stat span{font-size:.9rem;color:#cfe0e4}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.about p{margin-bottom:1rem;color:#3d4b50}
+.quote{background:var(--teal);color:#fff;border-radius:var(--radius);padding:2.2rem;box-shadow:var(--shadow)}
+.quote p{font-family:Georgia,serif;font-size:1.3rem;line-height:1.5;color:#fff;margin:0 0 1rem}
+.quote small{color:#cfe0e4;letter-spacing:.08em}
+.ticks{list-style:none;margin-top:1rem}
+.ticks li{padding-left:1.8rem;position:relative;margin-bottom:.5rem}
+.ticks li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:800}
+
+/* Services */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.6rem}
+.card{background:#fff;border-radius:var(--radius);padding:1.8rem;box-shadow:var(--shadow);border-top:4px solid var(--teal);transition:.25s}
+.card:hover{transform:translateY(-4px);border-top-color:var(--accent)}
+.card .ico{width:50px;height:50px;border-radius:12px;background:var(--sand);display:grid;place-items:center;margin-bottom:1rem;color:var(--teal)}
+.card p{color:var(--muted);font-size:.97rem}
+
+/* Process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem;margin-top:2.6rem;counter-reset:s}
+.step{position:relative;padding:1.6rem;background:var(--sand);border-radius:var(--radius)}
+.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;margin-bottom:.9rem}
+.step p{color:var(--muted);font-size:.95rem}
+
+/* Property types */
+.types{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2rem}
+.chip{background:#fff;border:1px solid var(--sand-2);padding:.55rem 1.1rem;border-radius:999px;font-weight:600;font-size:.95rem;color:var(--teal-dark)}
+
+/* Listings */
+.listing-box{margin-top:2.4rem;border:2px dashed #cdbfa8;border-radius:var(--radius);padding:2.6rem;text-align:center;background:#fff}
+.listing-box p{color:var(--muted);max-width:56ch;margin:.5rem auto 1.4rem}
+
+/* FAQ */
+.faq{max-width:820px;margin:2.4rem auto 0}
+details{background:#fff;border:1px solid #e3e7e8;border-radius:12px;margin-bottom:.8rem;padding:1.1rem 1.3rem}
+summary{cursor:pointer;font-weight:700;color:var(--teal-dark);list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::after{content:"+";color:var(--accent);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin-top:.8rem;color:var(--muted)}
+
+/* Contact */
+.contact{background:var(--teal-dark);color:#fff}
+.contact h2{color:#fff}
+.contact .lead{color:#cfe0e4}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:3rem;margin-top:2.2rem}
+.info p{margin-bottom:1.1rem;color:#dbe8eb}
+.info strong{display:block;color:#f0b697;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.15rem}
+.info a{color:#fff}
+form{background:#fff;color:var(--ink);padding:2rem;border-radius:var(--radius);box-shadow:0 14px 40px rgba(0,0,0,.25)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:block;font-weight:600;font-size:.9rem;margin-bottom:.3rem}
+input,select,textarea{width:100%;padding:.75rem .9rem;border:1px solid #cfd6d8;border-radius:10px;font:inherit;margin-bottom:1rem;background:#fff}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--teal);border-color:transparent}
+textarea{min-height:120px;resize:vertical}
+.hp{position:absolute;left:-9999px}
+.note{font-size:.82rem;color:var(--muted);margin-top:.8rem}
+.consent{display:flex;gap:.6rem;align-items:flex-start;font-size:.85rem;color:var(--muted);margin-bottom:1rem}
+.consent input{width:auto;margin:.25rem 0 0}
+
+footer{background:#06242b;color:#9db4ba;padding:2rem 0;font-size:.9rem}
+.foot{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+
+@media (max-width:900px){
+  section{padding:64px 0}
+  .about-grid,.contact-grid{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .burger{display:block}
+  nav{position:absolute;top:72px;left:0;right:0;background:#fff;border-bottom:1px solid #e6e9ea;display:none}
+  nav.open{display:block}
+  nav ul{flex-direction:column;padding:1rem 4%;gap:1rem;align-items:flex-start}
+}
+@media (max-width:600px){
+  .cards,.steps,.stats,.row{grid-template-columns:1fr}
+  .hero{padding:80px 0 70px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="#top" aria-label="REAL ESTATE SISTERS ΙΚΕ">
+      <span class="logo-mark">RS</span>
+      <span class="logo-text"><strong>REAL ESTATE SISTERS</strong><span>ΙΚΕ</span></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Μενού"><span></span><span></span><span></span></button>
+    <nav id="menu" aria-label="Κύριο μενού">
+      <ul>
+        <li><a href="#about">Η εταιρεία</a></li>
+        <li><a href="#services">Υπηρεσίες</a></li>
+        <li><a href="#process">Πώς δουλεύουμε</a></li>
+        <li><a href="#listings">Ακίνητα</a></li>
+        <li><a href="#faq">Ερωτήσεις</a></li>
+        <li><a class="btn" href="#contact">Επικοινωνία</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Εταιρεία Διαχείρισης Ακινήτων</span>
+    <h1>Το ακίνητό σας, σε αξιόπιστα χέρια.</h1>
+    <p>Αναλαμβάνουμε αγοραπωλησίες, ενοικιάσεις, διαχείριση και αξιοποίηση ακινήτων στον Έβρο. Από την πρώτη εκτίμηση μέχρι την υπογραφή, είμαστε δίπλα σας σε κάθε βήμα.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#contact">Ζητήστε δωρεάν ενημέρωση</a>
+      <a class="btn ghost" href="#services">Δείτε τις υπηρεσίες</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>Αγορά &amp; Πώληση</strong><span>Κατοικίες, οικόπεδα, επαγγελματικοί χώροι</span></div>
+      <div class="stat"><strong>Ενοικίαση</strong><span>Εύρεση ενοικιαστή και παρακολούθηση μίσθωσης</span></div>
+      <div class="stat"><strong>Διαχείριση</strong><span>Ο ιδιοκτήτης ασχολείται όσο θέλει</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div>
+      <span class="eyebrow">Η εταιρεία μας</span>
+      <h2>Τοπική γνώση, προσωπική φροντίδα</h2>
+      <p>Η REAL ESTATE SISTERS ΙΚΕ είναι εταιρεία διαχείρισης ακινήτων με έδρα στον Έβρο, στο 7ο χιλιόμετρο της διαδρομής Διδυμοτείχου – Αλεξανδρούπολης. Στηρίζεται στη στενή συνεργασία και στη γνώση της τοπικής αγοράς.</p>
+      <p>Πιστεύουμε ότι ένα ακίνητο δεν είναι απλώς ένας τίτλος ιδιοκτησίας: είναι σπίτι, επένδυση, περιουσία μιας οικογένειας. Γι' αυτό αντιμετωπίζουμε κάθε υπόθεση με σοβαρότητα, διαφάνεια και σεβασμό στον χρόνο και στις προσδοκίες σας.</p>
+      <ul class="ticks">
+        <li>Ξεκάθαρη ενημέρωση σε κάθε στάδιο, χωρίς εκπλήξεις</li>
+        <li>Προσεκτικός έλεγχος των στοιχείων του ακινήτου πριν από κάθε συναλλαγή</li>
+        <li>Συνεργασία με μηχανικούς, δικηγόρους και συμβολαιογράφους</li>
+        <li>Εμπιστευτικότητα για αγοραστές, πωλητές και ιδιοκτήτες</li>
+      </ul>
+    </div>
+    <aside class="quote">
+      <p>«Στόχος μας είναι να αισθάνεστε ασφάλεια στη συναλλαγή σας, είτε αγοράζετε το πρώτο σας σπίτι είτε αξιοποιείτε μια μεγάλη περιουσία.»</p>
+      <small>REAL ESTATE SISTERS ΙΚΕ</small>
+    </aside>
+  </div>
+</section>
+
+<section id="services" class="alt">
+  <div class="container center">
+    <span class="eyebrow">Υπηρεσίες</span>
+    <h2>Ολοκληρωμένες λύσεις για κάθε ανάγκη</h2>
+    <p class="lead">Είτε θέλετε να αγοράσετε, να πουλήσετε, να νοικιάσετε ή να αφήσετε το ακίνητό σας σε έμπειρα χέρια, έχουμε τη λύση.</p>
+
+    <div class="cards" style="text-align:left">
+      <article class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></div>
+        <h3>Αγοραπωλησίες ακινήτων</h3>
+        <p>Διαμεσολάβηση για την αγορά και πώληση διαμερισμάτων, μονοκατοικιών, οικοπέδων, αγροτεμαχίων και επαγγελματικών χώρων, με σωστή τιμολόγηση και στοχευμένη προώθηση.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9"/><path d="M16 7l3 3"/></svg></div>
+        <h3>Ενοικιάσεις</h3>
+        <p>Εύρεση αξιόπιστων ενοικιαστών για κατοικίες και επαγγελματικούς χώρους, σύνταξη μισθωτηρίου και υποστήριξη και των δύο πλευρών κατά τη διάρκεια της μίσθωσης.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg></div>
+        <h3>Διαχείριση ακινήτων</h3>
+        <p>Αναλαμβάνουμε την καθημερινή φροντίδα του ακινήτου σας: επικοινωνία με ενοικιαστές, παρακολούθηση εισπράξεων, επιθεωρήσεις και συντονισμό συντηρήσεων.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+        <h3>Εκμετάλλευση &amp; αξιοποίηση</h3>
+        <p>Εξετάζουμε πώς μπορεί να αποδώσει καλύτερα η περιουσία σας: μακροχρόνια ή βραχυχρόνια μίσθωση, ανακαίνιση για αύξηση αξίας, επαγγελματική χρήση ή επενδυτική αξιοποίηση.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 20V10M12 20V4M18 20v-7"/></svg></div>
+        <h3>Εκτιμήσεις &amp; συμβουλευτική</h3>
+        <p>Ρεαλιστική εκτίμηση της αγοραίας αξίας με βάση τα χαρακτηριστικά του ακινήτου και τις τοπικές συνθήκες, καθώς και συμβουλές για επενδύσεις σε ακίνητα.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg></div>
+        <h3>Υποστήριξη στα έγγραφα</h3>
+        <p>Καθοδήγηση για τα απαραίτητα δικαιολογητικά και τον έλεγχο τίτλων, σε συνεργασία με τους κατάλληλους επαγγελματίες, ώστε η συναλλαγή να ολοκληρώνεται ομαλά.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="container center">
+    <span class="eyebrow">Πώς δουλεύουμε</span>
+    <h2>Απλή διαδικασία, καθαρά βήματα</h2>
+    <p class="lead">Ξέρετε από την αρχή τι θα γίνει και πότε.</p>
+    <div class="steps" style="text-align:left">
+      <div class="step"><h3>Γνωριμία</h3><p>Συζητάμε τον στόχο σας και τα χαρακτηριστικά του ακινήτου, χωρίς καμία υποχρέωση.</p></div>
+      <div class="step"><h3>Εκτίμηση &amp; πλάνο</h3><p>Καταλήγουμε σε ρεαλιστική τιμή ή μίσθωμα και σε ένα σαφές πλάνο προώθησης.</p></div>
+      <div class="step"><h3>Προβολή &amp; επισκέψεις</h3><p>Παρουσιάζουμε το ακίνητο σε ενδιαφερόμενους και οργανώνουμε τις επισκέψεις.</p></div>
+      <div class="step"><h3>Ολοκλήρωση</h3><p>Συντονίζουμε τη συμφωνία και την υπογραφή, και συνεχίζουμε να βοηθάμε και μετά.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <span class="eyebrow">Τι ακίνητα αναλαμβάνουμε</span>
+    <h2>Για κάθε είδος ακινήτου</h2>
+    <p class="lead">Δουλεύουμε με οικιστικά, επαγγελματικά και αγροτικά ακίνητα στον Έβρο και στην ευρύτερη περιοχή της Θράκης.</p>
+    <div class="types">
+      <span class="chip">Διαμερίσματα</span>
+      <span class="chip">Μονοκατοικίες</span>
+      <span class="chip">Μεζονέτες</span>
+      <span class="chip">Οικόπεδα</span>
+      <span class="chip">Αγροτεμάχια</span>
+      <span class="chip">Καταστήματα</span>
+      <span class="chip">Γραφεία</span>
+      <span class="chip">Αποθήκες &amp; βιοτεχνικοί χώροι</span>
+      <span class="chip">Παραθεριστικές κατοικίες</span>
+    </div>
+  </div>
+</section>
+
+<section id="listings">
+  <div class="container center">
+    <span class="eyebrow">Διαθέσιμα ακίνητα</span>
+    <h2>Ακίνητα προς πώληση και ενοικίαση</h2>
+    <p class="lead">Οι διαθέσιμες προτάσεις μας ανανεώνονται τακτικά.</p>
+    <div class="listing-box">
+      <h3>Ενημερώνουμε σύντομα τη λίστα μας</h3>
+      <p>Πολλά ακίνητα διατίθενται και χωρίς δημόσια προβολή. Πείτε μας τι ψάχνετε και θα σας ενημερώσουμε πρώτοι για κάθε κατάλληλη πρόταση.</p>
+      <a class="btn" href="#contact">Πείτε μας τι ψάχνετε</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="alt">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow">Συχνές ερωτήσεις</span>
+      <h2>Οι απαντήσεις που ψάχνετε</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>Θέλω να πουλήσω το ακίνητό μου. Από πού ξεκινάμε;</summary>
+        <p>Επικοινωνήστε μαζί μας και στείλτε μας βασικά στοιχεία: τοποθεσία, τετραγωνικά, έτος κατασκευής και κατάσταση. Θα σας προτείνουμε μια πρώτη εκτίμηση και θα σας πούμε ποια έγγραφα χρειάζονται, ώστε να προχωρήσετε χωρίς καθυστερήσεις.</p>
+      </details>
+      <details>
+        <summary>Ποια έγγραφα χρειάζονται για μια αγοραπωλησία;</summary>
+        <p>Συνήθως απαιτούνται ο τίτλος ιδιοκτησίας, στοιχεία κτηματογράφησης ή Κτηματολογίου, φορολογικά και πολεοδομικά στοιχεία και, όπου ισχύει, ενεργειακό πιστοποιητικό. Ανάλογα με το ακίνητο μπορεί να χρειάζονται και επιπλέον. Σας καθοδηγούμε βήμα βήμα και συνεργαζόμαστε με τον μηχανικό και τον δικηγόρο ή συμβολαιογράφο σας.</p>
+      </details>
+      <details>
+        <summary>Τι σημαίνει «διαχείριση ακινήτου» για εμένα ως ιδιοκτήτη;</summary>
+        <p>Εμείς φροντίζουμε την εύρεση ενοικιαστή, την επικοινωνία μαζί του, την παρακολούθηση των εισπράξεων και τον συντονισμό των εργασιών συντήρησης. Εσείς ενημερώνεστε τακτικά και αποφασίζετε για τα σημαντικά.</p>
+      </details>
+      <details>
+        <summary>Μπορώ να αξιοποιήσω ένα ακίνητο που δεν χρησιμοποιώ;</summary>
+        <p>Ναι. Εξετάζουμε μαζί τις επιλογές: μακροχρόνια ενοικίαση, βραχυχρόνια μίσθωση, μικρή ανακαίνιση για να αυξηθεί η απόδοση ή πώληση. Θα σας παρουσιάσουμε τα υπέρ και τα κατά κάθε λύσης, ώστε να αποφασίσετε εσείς.</p>
+      </details>
+      <details>
+        <summary>Η πρώτη επικοινωνία με δεσμεύει;</summary>
+        <p>Όχι. Η πρώτη ενημέρωση και η συζήτηση για τις δυνατότητές σας γίνονται χωρίς καμία υποχρέωση.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <span class="eyebrow" style="color:#f0b697">Επικοινωνία</span>
+    <h2>Ας μιλήσουμε για το ακίνητό σας</h2>
+    <p class="lead">Συμπληρώστε τη φόρμα και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</p>
+
+    <div class="contact-grid">
+      <div class="info">
+        <p><strong>Εταιρεία</strong>REAL ESTATE SISTERS ΙΚΕ<br>Εταιρεία Διαχείρισης Ακινήτων «REAL ESTATE»</p>
+        <p><strong>Διεύθυνση</strong>7ο χλμ Διδυμοτείχου – Αλεξανδρούπολης<br>Τ.Κ. 68004</p>
+        <p><strong>Email</strong><a href="mailto:realestatesistersike@gmail.com">realestatesistersike@gmail.com</a></p>
+        <p><a class="btn" target="_blank" rel="noopener" href="https://www.openstreetmap.org/search?query=7%CE%BF%20%CF%87%CE%BB%CE%BC%20%CE%94%CE%B9%CE%B4%CF%85%CE%BC%CE%BF%CF%84%CE%B5%CE%AF%CF%87%CE%BF%CF%85%20%CE%91%CE%BB%CE%B5%CE%BE%CE%B1%CE%BD%CE%B4%CF%81%CE%BF%CF%8D%CF%80%CE%BF%CE%BB%CE%B7%CF%82">Δείτε στον χάρτη</a></p>
+      </div>
+
+      <form id="contactForm" novalidate>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="row">
+          <div><label for="name">Ονοματεπώνυμο *</label><input id="name" required autocomplete="name"></div>
+          <div><label for="phone">Τηλέφωνο *</label><input id="phone" type="tel" required autocomplete="tel"></div>
+        </div>
+        <label for="email">Email</label>
+        <input id="email" type="email" autocomplete="email">
+        <label for="topic">Σας ενδιαφέρει</label>
+        <select id="topic">
+          <option>Αγορά ακινήτου</option>
+          <option>Πώληση ακινήτου</option>
+          <option>Ενοικίαση (ψάχνω να νοικιάσω)</option>
+          <option>Ενοικίαση (θέλω να νοικιάσω το ακίνητό μου)</option>
+          <option>Διαχείριση / αξιοποίηση ακινήτου</option>
+          <option>Εκτίμηση αξίας</option>
+          <option>Άλλο</option>
+        </select>
+        <label for="msg">Μήνυμα</label>
+        <textarea id="msg" placeholder="Περιγράψτε μας σύντομα τι ψάχνετε ή ποιο ακίνητο έχετε (περιοχή, τ.μ., κατάσταση)."></textarea>
+        <div class="consent">
+          <input type="checkbox" id="gdpr" required>
+          <label for="gdpr" style="font-weight:400;margin:0">Συναινώ στην επεξεργασία των στοιχείων μου αποκλειστικά για την επικοινωνία σχετικά με το αίτημά μου.</label>
+        </div>
+        <button class="btn" type="submit">Αποστολή μηνύματος</button>
+        <p class="note" id="formNote">Η αποστολή ετοιμάζει το μήνυμα στο πρόγραμμα email σας.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container foot">
+    <div>© <span id="yr"></span> REAL ESTATE SISTERS ΙΚΕ. Με επιφύλαξη παντός δικαιώματος.</div>
+    <div>7ο χλμ Διδυμοτείχου – Αλεξανδρούπολης, 68004 · <a href="mailto:realestatesistersike@gmail.com" style="color:#cfe0e4">realestatesistersike@gmail.com</a></div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+var burger = document.getElementById('burger');
+var menu = document.getElementById('menu');
+burger.addEventListener('click', function(){ menu.classList.toggle('open'); });
+menu.addEventListener('click', function(e){ if(e.target.tagName === 'A'){ menu.classList.remove('open'); } });
+
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var f = e.target;
+  var note = document.getElementById('formNote');
+  if (f.website.value) { return; }
+  var name = document.getElementById('name').value.trim();
+  var phone = document.getElementById('phone').value.trim();
+  if (!name || !phone) { note.textContent = 'Συμπληρώστε ονοματεπώνυμο και τηλέφωνο.'; note.style.color = '#b3261e'; return; }
+  if (!document.getElementById('gdpr').checked) { note.textContent = 'Απαιτείται η συναίνεσή σας για να συνεχίσουμε.'; note.style.color = '#b3261e'; return; }
+  var body = 'Ονοματεπώνυμο: ' + name +
+    '\nΤηλέφωνο: ' + phone +
+    '\nEmail: ' + document.getElementById('email').value.trim() +
+    '\nΕνδιαφέρον: ' + document.getElementById('topic').value +
+    '\n\nΜήνυμα:\n' + document.getElementById('msg').value.trim();
+  var subject = 'Αίτημα από το site: ' + document.getElementById('topic').value;
+  var full = 'Θέμα: ' + subject + '\n\n' + body;
+  note.style.color = '';
+  note.innerHTML = 'Αν δεν άνοιξε το πρόγραμμα email σας, στείλτε το μήνυμα στο <strong>realestatesistersike@gmail.com</strong>. ' +
+    '<button type="button" id="copyBtn" style="margin-left:.4rem;padding:.25rem .7rem;border-radius:8px;border:1px solid #cfd6d8;background:#f6f1e9;cursor:pointer">Αντιγραφή μηνύματος</button>';
+  document.getElementById('copyBtn').addEventListener('click', function(){
+    try { navigator.clipboard.writeText(full).then(function(){ document.getElementById('copyBtn').textContent = 'Αντιγράφηκε ✓'; }, function(){}); } catch(err) {}
+  });
+  try { window.location.href = 'mailto:realestatesistersike@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body); } catch(err) {}
+});
+</script>
+</body>
+</html>
